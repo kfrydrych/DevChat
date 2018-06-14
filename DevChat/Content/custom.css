@@ -1,0 +1,17 @@
+﻿body {
+    background-image: url("Images/background-2.jpg");
+    background-position: center;
+}
+
+#chat-wrapper {
+    margin-top: 10px;
+}
+
+.chat-panel {
+    opacity: 0.7;  
+    height: 70vh;
+}
+
+.chat-panel > .card-body {
+    overflow-y: auto;
+}
